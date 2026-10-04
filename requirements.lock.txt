@@ -1,0 +1,5 @@
+# 锁定依赖（手写 name==version，非 pip freeze 的 file:// 路径）。
+# 生成环境：Python 3.13.12 / Windows 11。CI 在 3.12 / 3.13 矩阵验证。
+numpy==2.5.3
+scipy==1.18.1
+scikit-learn==1.9.1

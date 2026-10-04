@@ -1,0 +1,38 @@
+# TopoForge 忽略规则。作者：晨星。
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.so
+
+# 虚拟环境（隔离，不入库）
+.venv/
+venv/
+env/
+
+# 测试 / 缓存
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# 产物
+benchmark.json
+*.npy
+*.csv
+
+# 编辑器 / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时诊断脚本（不应入库）
+exp_*.py
+_dbg.py
+_validate2.py
